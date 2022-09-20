@@ -1,0 +1,115 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.op{
+    display: none;
+}
+#delUs{
+    display: none;
+}
+#addtax{
+display: none;
+}
+#add{
+display: none;
+}
+#edi{
+    display: none;
+}
+#del{
+    display: none;
+}
+#office{
+    display: none;
+}
+#User{
+    display: none;
+}
+#Taxi{
+    display: none;
+}
+#driver{
+    display: none;
+}
+#addc{
+    display: none;
+}
+#editOffCar{
+    display: none;
+}
+#deleteOffCar{
+    display: none;
+}
+#addDrivers{
+    display: none;
+}
+#deleteDriver{
+    display: none;
+}
+#OfficeCar{
+    display: none;
+}
+#mng{
+    display: none;
+}
+#update{
+    display: none;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav button {
+    padding: 8px 8px 8px 32px;
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav button:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 5%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+position: absolute;
+    top: 0px;
+    padding-left: 5%;
+
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}

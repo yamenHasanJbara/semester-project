@@ -1,0 +1,75 @@
+
+img {
+  vertical-align: middle;
+}
+#main{
+  height: 106%;
+  position: absolute;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  position: absolute;
+  padding-left: 10%;
+  padding-top:1%;
+
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+}
+
+.carmain{
+  position: absolute;
+  margin-bottom: 0 auto;
+  padding-left: 15%;
+  padding-top: 5%
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+@media(max-width: 768px){
+  .column {
+  float: left;
+  width: 100%;
+}
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#map{
+  width: 500px;
+  height: 550px;
+  margin-top:5%;
+
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+body{
+  background-color: darkgray;
+}
